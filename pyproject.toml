@@ -1,0 +1,10 @@
+[project]
+name = "chitato"
+version = "0.1.0"
+description = "A simple discord bot for polling a source server SDR address under a private network."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "discord-py>=2.7.1",
+    "rcon>=2.4.9",
+]
